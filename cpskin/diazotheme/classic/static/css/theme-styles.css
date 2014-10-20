@@ -49,11 +49,8 @@ body #visual-portal-wrapper {
 
 /* --- Navigation --- */
 
-#portal-globalnav .theme1 a:after, #portal-globalnav .theme2 a:after, #portal-globalnav .theme3 a:after, #portal-globalnav .theme4 a:after{
-    content: "▼";
-    font-size: 100%;
-    float:right;
-    padding-left: 0.5em;
+#portal-globalnav a:after{
+    content: "\00a0 \00a0 ▼";
 }
 
 
@@ -131,6 +128,14 @@ body #visual-portal-wrapper {
 
 /* --- Fin navigation --- */
 
+/* --- Je suis, accès directs --- */
+
+#portal-globalnav li:nth-last-child(2) a, #portal-globalnav li:last-child a{
+    background-color: #676b65;
+}
+
+/* --- Fin je suis, accès directs --- */
+
 /* --- Faceted navigation --- */
 
 #navWrapper #portal-globalnav .menutools-1 a, #navWrapper #portal-globalnav .menutools-2 a, 
@@ -143,9 +148,18 @@ body #visual-portal-wrapper {
 
 /* --- Réseaux sociaux --- */
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    color: #aeb9bd;
+#content #viewlet-above-content-title ul li a:before {
+    color: #018ab7;
 }
+
+#content #viewlet-above-content-title ul li {
+    margin-right: 0px;
+}
+
+#content #viewlet-above-content-title ul li a {
+    font-size: 20px;
+}
+
 
 /* --- Fin réseaux sociaux --- */
 
@@ -172,13 +186,17 @@ body #visual-portal-wrapper {
     padding: 0 1% 1% 1%;
 }
 
-.titre-rss, .results{
+.titre-rss{
     background-color:white;
-    border-bottom: 1px solid #eaeaea;
 }
 
-.titre-rss h2 {
+.titre-rss h2,.bloc-rss:after {
     color: #0099cd;
+}
+
+.results{
+    background-color:white;
+    border-bottom: 1px solid #eaeaea;
 }
 
 #content #accueil .voir-tout {
@@ -273,7 +291,7 @@ body #visual-portal-wrapper {
 #icone > p a {
     display: block;
     float: left;
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: -1px;
     line-height: 2.8em;
     text-transform: uppercase;
