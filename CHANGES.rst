@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-0.2 (unreleased)
-----------------
+0.1.1 (2014-10-22)
+------------------
 
 - Bad release, update Manifest.
 
