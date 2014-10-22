@@ -5,7 +5,7 @@ Changelog
 0.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Bad release, update Manifest.
 
 
 0.1 (2014-10-22)
