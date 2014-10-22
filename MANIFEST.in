@@ -5,3 +5,4 @@ include *.in
 include *.cfg
 graft cpskin
 graft docs
+global-exclude *.pyc
