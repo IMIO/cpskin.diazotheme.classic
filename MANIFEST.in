@@ -1,6 +1,6 @@
+include *.py
+include *.rst
+include *.txt
+include *.in
 graft cpskin
 graft docs
-include *.rst *.in setup.py
-exclude buildout.cfg
-exclude bootstrap.py
-recursive-exclude cpskin *.pyc
