@@ -36,6 +36,7 @@ body #visual-portal-wrapper {
 }
 
 #portal-searchbox {
+    background-color:#ffffff;
     right: 0;
 }
 
@@ -204,10 +205,7 @@ body #visual-portal-wrapper {
 }
 
 .voir-tout:after {
-    content: ">";
     font-size: 1.3em;
-    position: relative;
-    top: 2px;
 }
 
 #content #accueil a.voir-tout:hover {
@@ -231,10 +229,7 @@ body #visual-portal-wrapper {
 }
 
 #multimediaviewlet .link-all:after {
-    content: ">";
     font-size: 1.3em;
-    position: relative;
-    top: 2px;
 }
 
 #multimediaviewlet .link-all:hover {
@@ -319,13 +314,8 @@ dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
     background-color: #fbfbfb;
 }
 
-#footer-sitemap div.footer-sitemap-item,#footer-sitemap div.footer-static {
-    border-left: 1px solid #dcdcdf;
-}
-
 .footer-sitemap-item a{
     color: #434853;
-    font-weight: bold;
 }
 
 #footer-sitemap  .footer-sitemap-item li a {
