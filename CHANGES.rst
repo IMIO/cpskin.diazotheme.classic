@@ -5,7 +5,7 @@ Changelog
 0.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add version into metadata.xml
 
 
 0.1.1 (2014-10-22)

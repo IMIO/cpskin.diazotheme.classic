@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <metadata>
-  <dependencies>
-    <dependency>profile-cpskin.theme:default</dependency>
-  </dependencies>
+    <version>1</version>
+    <dependencies>
+        <dependency>profile-cpskin.theme:default</dependency>
+    </dependencies>
 </metadata>
