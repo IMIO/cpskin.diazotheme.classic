@@ -131,7 +131,7 @@ body #visual-portal-wrapper {
 
 /* --- Je suis, accès directs --- */
 
-#portal-globalnav li:nth-last-child(2) a, #portal-globalnav li:last-child a{
+#portal-globalnav #portaltab-je-suis a, #portal-globalnav #portaltab-je-trouve a{
     background-color: #676b65;
 }
 
