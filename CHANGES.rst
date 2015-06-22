@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.1.4 (unreleased)
+0.1.4 (2015-06-22)
 ------------------
 
 - Nothing changed yet.
