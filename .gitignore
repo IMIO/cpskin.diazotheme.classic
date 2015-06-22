@@ -22,3 +22,5 @@ output.xml
 *.swp
 cpskin/diazotheme/modern
 cpskin/diazotheme/retro
+include/
+lib/
