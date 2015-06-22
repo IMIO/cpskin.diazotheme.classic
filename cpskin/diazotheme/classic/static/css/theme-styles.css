@@ -131,8 +131,14 @@ body #visual-portal-wrapper {
 
 /* --- Je suis, accès directs --- */
 
-#portal-globalnav #portaltab-je-suis a, #portal-globalnav #portaltab-je-trouve a{
+#navWrapper #portal-globalnav #portaltab-je-suis a, #navWrapper #portal-globalnav #portaltab-je-trouve a{
     background-color: #676b65;
+}
+
+#navWrapper #portal-globalnav #portaltab-je-suis a:hover, #navWrapper #portal-globalnav #portaltab-je-trouve a:hover,
+#navWrapper #portal-globalnav #portaltab-je-suis .activated, #navWrapper #portal-globalnav #portaltab-je-trouve .activated{
+    background-color: #efefef;
+    color:#000000;
 }
 
 /* --- Fin je suis, accès directs --- */
