@@ -11,7 +11,14 @@ Changelog
 0.1.4 (2015-06-22)
 ------------------
 
-- Nothing changed yet.
+- add ignores
+  [bsuttor]
+
+- change css navigation
+  [mgennart]
+
+- change css portal-colums
+  [mgennart]
 
 
 0.1.3 (2015-03-19)
