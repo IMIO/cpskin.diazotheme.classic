@@ -5,7 +5,9 @@ Changelog
 0.1.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Duplicate CSS rules for now to handle #slider -> #slider-a-la-une and
+  #carousel -> #carousel-a-la-une ids at the same time (#16991)
+  [laulaz]
 
 
 0.1.4 (2015-06-22)
