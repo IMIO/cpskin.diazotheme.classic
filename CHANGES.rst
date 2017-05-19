@@ -8,6 +8,9 @@ Changelog
 - Complete migration to LESS
   [laulaz]
 
+- Add missing theme parameters (harmonization)
+  [laulaz]
+
 - Fix package development
   [laulaz]
 
