@@ -7,7 +7,7 @@
     enabled="1"
     rendering="link"
     applyPrefix="True"
-    expression="request/HTTP_X_THEME_ENABLED | nothing"
+    expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.classic'"
     compression="none"
     insert-before="portal_resources/cpskin/variables.less" />
 
@@ -17,7 +17,7 @@
     enabled="1"
     rendering="link"
     applyPrefix="True"
-    expression="request/HTTP_X_THEME_ENABLED | nothing"
+    expression="python:here.restrictedTraverse('@@currentTheme')() == 'cpskin.diazotheme.classic'"
     compression="none"
     insert-before="portal_resources/cpskin/styles.less" />
 
