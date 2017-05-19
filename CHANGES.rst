@@ -5,6 +5,9 @@ Changelog
 0.1.5 (unreleased)
 ------------------
 
+- Fix package development
+  [laulaz]
+
 - Fix IMIO pypi URL
   [laulaz]
 
