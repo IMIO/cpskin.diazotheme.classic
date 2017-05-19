@@ -5,6 +5,9 @@ Changelog
 0.1.5 (unreleased)
 ------------------
 
+- Complete migration to LESS
+  [laulaz]
+
 - Fix package development
   [laulaz]
 
