@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <object name="portal_skins">
 
- <skin-path name="classic theme">
+ <skin-path name="classic theme" remove="True">
     <layer name="classic_images"
            remove="True" />
  </skin-path>

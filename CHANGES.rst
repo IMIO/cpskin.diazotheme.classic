@@ -5,7 +5,8 @@ Changelog
 0.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Improve uninstall profile.
+  [bsuttor]
 
 
 0.2.1 (2017-06-15)
