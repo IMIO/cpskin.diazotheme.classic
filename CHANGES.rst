@@ -5,7 +5,8 @@ Changelog
 0.2.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Remove unused skin. Upgrade step to remove it will be in cpskin.theme.
+  [bsuttor]
 
 
 0.2.3 (2017-07-12)
