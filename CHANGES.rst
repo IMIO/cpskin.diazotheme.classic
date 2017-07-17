@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.2.4 (unreleased)
+0.2.4 (2017-07-17)
 ------------------
 
 - Remove unused skin. Upgrade step to remove it will be in cpskin.theme.
