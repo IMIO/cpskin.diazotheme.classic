@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-0.2.6 (unreleased)
+0.2.6 (2017-12-20)
 ------------------
 
-- Nothing changed yet.
+- Delete underline to #portal-globalnav .selected a.
+  [mgennart]
 
 
 0.2.5 (2017-10-12)
